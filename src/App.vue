@@ -1,11 +1,11 @@
 <script>
-import MyHeader from './components/MyHeader.vue';
+import PageHeader from './components/PageHeader.vue';
 import { store } from './store.js'
 
 
 export default{
   components: {
-    MyHeader,
+    PageHeader,
   },
 
   data () {
@@ -21,7 +21,7 @@ export default{
 
 
 <template>
-  <MyHeader></MyHeader>
+  <PageHeader></PageHeader>
 </template>
 
 <style scoped>

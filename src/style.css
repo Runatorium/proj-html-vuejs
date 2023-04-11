@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html{
+  font-family: serif
+}
+
 :root {
   /*Color Cube*/
   --white: #ffffff;
@@ -29,7 +33,7 @@
   --Atoll-DarkVibrant: #086875;
   --Limited-Spruce-DarkMuted: #344747;
   --Tan-LightVibrant: #d6b28d;
-  
+
 }
 
 .d-flex{
