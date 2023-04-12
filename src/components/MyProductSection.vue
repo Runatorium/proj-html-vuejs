@@ -37,13 +37,12 @@ export default{
     </div>
 </template>
 
-<style>
+<style scoped>
 
 .container{
     height: 800px;
     width: 100vw;
     justify-content: center;
-    
 }
 .innerbox{
     width: 90%;

@@ -47,14 +47,16 @@ export const store = reactive(
         
         events: [
             {
-                name: 'Wedding & Parties',
-                imgurl: 'asd',
-                type: 'Private Dining Hall',
+                name: 'Internation Bakery',
+                imgurl: '../public/img/corporate-bg.jpg',
+                imgurlhover: '../public/img/corporate-hover-bg.jpg',
+                type: 'Corporate Events', 
             },
             {
-                name: 'Internation Bakery',
-                imgurl: 'asd',
-                type: 'Corporate Events', 
+                name: 'Wedding & Parties',
+                imgurl: '../public/img/wedding-bg.jpg',
+                imgurlhover: '../public/img/wedding-hover-bg.jpg',
+                type: 'Private Dining Hall',
             },
         ],
 
