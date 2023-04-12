@@ -43,26 +43,21 @@ export default{
     height: 800px;
     width: 100vw;
     justify-content: center;
-    background-color: blue;/*debug*/ 
+    
 }
 .innerbox{
     width: 90%;
     flex-direction: row;
-    background-color: aliceblue;
 }
 .infobox{
     width: 33%;
     height: 100%;
-    border-style:dotted;
-    border-color: aqua;
 }
 .productcarousel{
     flex-direction: row;
     justify-content: center;
     width: 67%;
     height: 100%;
-    border-style:dotted;
-    border-color: aqua;
 }
 
 .productcarousel div{
