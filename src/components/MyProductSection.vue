@@ -45,8 +45,10 @@ export default{
     justify-content: center;
 }
 .innerbox{
-    width: 90%;
+    width: 80%;
+    display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 .infobox{
     width: 33%;
@@ -56,7 +58,7 @@ export default{
     flex-direction: row;
     justify-content: center;
     width: 67%;
-    height: 100%;
+    height: 100%; 
 }
 
 .productcarousel div{

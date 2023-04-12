@@ -13,19 +13,35 @@ export const store = reactive(
             'Contact',
             'MyAccount'
         ],
-
-        products: [
+        products:[
             {
                 name: 'Choco chip Cookies',
                 type: ['Cookies', 'Pastries'],
-                imgurl: '../public/img/choco-chip-cookies-400x510.jpg',
+                imgurl: '../public/img/choco-chip-cookies-500x638.jpg',
                 minPrice: 19.00,
                 maxPrice: 39.00,
             },
             {
                 name: 'Strawberry Jam Cookies',
                 type: ['Cookies', 'Pastries'],
-                imgurl: '../public/img/strawberry-donut-400x510.jpg',
+                imgurl: '../public/img/strawberry-jam-cookies-500x638.jpg',
+                minPrice: 24.00,
+                maxPrice: 62.00,
+            },
+        ],
+
+        allProducts: [
+            {
+                name: 'Choco chip Cookies',
+                type: ['Cookies', 'Pastries'],
+                imgurl: '../public/img/choco-chip-cookies-500x638.jpg',
+                minPrice: 19.00,
+                maxPrice: 39.00,
+            },
+            {
+                name: 'Strawberry Jam Cookies',
+                type: ['Cookies', 'Pastries'],
+                imgurl: '../public/img/strawberry-jam-cookies-500x638.jpg',
                 minPrice: 24.00,
                 maxPrice: 62.00,
             },

@@ -36,7 +36,7 @@ export default{
     justify-content: center;
 }
 .innerbox{
-    width: 90%;
+    width: 80vw;
     display: flex;
     justify-content: center;
 }
@@ -51,7 +51,7 @@ export default{
     margin-top: 20px;
     padding: 10px;
     width: 98%;
-    height: 600px;
+    height: 800px;
 }
 .title{
     text-align: center;
