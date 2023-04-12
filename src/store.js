@@ -18,14 +18,14 @@ export const store = reactive(
             {
                 name: 'Choco chip Cookies',
                 type: ['Cookies', 'Pastries'],
-                imgurl: 'asd',
+                imgurl: '../public/img/choco-chip-cookies-400x510.jpg',
                 minPrice: 19.00,
                 maxPrice: 39.00,
             },
             {
                 name: 'Strawberry Jam Cookies',
                 type: ['Cookies', 'Pastries'],
-                imgurl: 'asd',
+                imgurl: '../public/img/strawberry-donut-400x510.jpg',
                 minPrice: 24.00,
                 maxPrice: 62.00,
             },

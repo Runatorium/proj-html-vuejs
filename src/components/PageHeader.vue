@@ -56,7 +56,7 @@ export default{
 
 #headerinfo{
     width: 22%;
-    margin-left: 75px;
+    margin-left: 100px;
     margin-top: 150px;
 }
 
@@ -93,7 +93,7 @@ export default{
 
 ul{
     list-style: none;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 
