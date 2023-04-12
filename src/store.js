@@ -17,14 +17,14 @@ export const store = reactive(
             {
                 name: 'Choco chip Cookies',
                 type: ['Cookies', 'Pastries'],
-                imgurl: '../public/img/choco-chip-cookies-500x638.jpg',
+                imgurl: '/img/choco-chip-cookies-500x638.jpg',
                 minPrice: 19.00,
                 maxPrice: 39.00,
             },
             {
                 name: 'Strawberry Jam Cookies',
                 type: ['Cookies', 'Pastries'],
-                imgurl: '../public/img/strawberry-jam-cookies-500x638.jpg',
+                imgurl: '/img/strawberry-jam-cookies-500x638.jpg',
                 minPrice: 24.00,
                 maxPrice: 62.00,
             },
@@ -34,28 +34,28 @@ export const store = reactive(
             {
                 name: 'Choco chip Cookies',
                 type: ['Cookies', 'Pastries'],
-                imgurl: '../public/img/choco-chip-cookies-500x638.jpg',
+                imgurl: '/public/img/choco-chip-cookies-400x510.jpg',
                 minPrice: 19.00,
                 maxPrice: 39.00,
             },
             {
                 name: 'Strawberry Jam Cookies',
                 type: ['Cookies', 'Pastries'],
-                imgurl: '../public/img/strawberry-jam-cookies-500x638.jpg',
+                imgurl: '/img/strawberry-jam-cookies-400x510.jpg',
                 minPrice: 24.00,
                 maxPrice: 62.00,
             },
             {
                 name: 'Strawberry Donut',
                 type: ['Donut', 'Pastries'],
-                imgurl: 'asd',
+                imgurl: '/public/img/strawberry-donut-400x510.jpg',
                 minPrice: 24.00,
                 maxPrice: 42.00,
             },
             {
                 name: 'Perfect Macarons',
                 type: ['Cookies','Pastries'],
-                imgurl: 'asd',
+                imgurl: '/img/perfect-macarons-400x510.jpg',
                 minPrice: 18.00,
                 maxPrice: 52.00,
             }
@@ -64,14 +64,14 @@ export const store = reactive(
         events: [
             {
                 name: 'Internation Bakery',
-                imgurl: '../public/img/corporate-bg.jpg',
-                imgurlhover: '../public/img/corporate-hover-bg.jpg',
+                imgurl: '/img/corporate-bg.jpg',
+                imgurlhover: '/img/corporate-hover-bg.jpg',
                 type: 'Corporate Events', 
             },
             {
                 name: 'Wedding & Parties',
-                imgurl: '../public/img/wedding-bg.jpg',
-                imgurlhover: '../public/img/wedding-hover-bg.jpg',
+                imgurl: '/img/wedding-bg.jpg',
+                imgurlhover: '/img/wedding-hover-bg.jpg',
                 type: 'Private Dining Hall',
             },
         ],

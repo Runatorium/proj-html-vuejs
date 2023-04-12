@@ -15,12 +15,12 @@ export default{
 </script>
 
 <template>
-    <div class="container d-flex">
+    <div class="containerbox d-flex">
         <div class="innerbox d-flex">
                 
             <div class="infobox">
                 <p id="greytitle">OUR PRODUCTS</p>
-                <h2>All Our Delectable pastries are backed fresh in our Kitchen every morning, and are made with All-Natural, All Organic ingredients</h2>
+                <h2>All our delectable pastries are backed fresh in our Kitchen every morning, and are made with All-Natural, All Organic ingredients</h2>
                 <button id="productsbtn">
                     <p>Start Shopping</p>
                 </button>
@@ -39,7 +39,7 @@ export default{
 
 <style scoped>
 
-.container{
+.containerbox{
     width: 100vw;
     justify-content: center;
 }

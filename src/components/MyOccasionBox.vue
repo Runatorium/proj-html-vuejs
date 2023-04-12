@@ -30,7 +30,6 @@ export default{
 <style scoped>
 
 .container{
-    height: 600px;
     width: 100vw;
     display: flex;
     justify-content: center;

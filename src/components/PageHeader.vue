@@ -18,7 +18,7 @@ export default{
  <div id="header">
     <div class="topheader d-flex">
         <div class="logo">
-            <img src="../../public/img/avada-bakery-logo-retina-200x97.png">
+            <img src="/img/avada-bakery-logo-retina-200x97.png">
         </div>
         <div class="box d-flex">
             <ul class="headernavbar d-flex">
@@ -44,7 +44,7 @@ export default{
     width: 100vw;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(../../public/img/hero-header-bakery.jpg);
+    background-image: url(/img/hero-header-bakery.jpg);
 }
 
 .topheader{
