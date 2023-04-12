@@ -44,7 +44,7 @@ export default{
     width: 100vw;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(../../public/img/bakery-process-3.jpg);
+    background-image: url(../../public/img/hero-header-bakery.jpg);
 }
 
 .topheader{
