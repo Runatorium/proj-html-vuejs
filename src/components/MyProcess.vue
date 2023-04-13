@@ -30,7 +30,7 @@ export default{
 
 <style scoped>
     .maincontainer{
-        width: 100vw;
+        width: 100%;
         justify-content: center;
     }
     .internalcontainer{
@@ -49,14 +49,14 @@ export default{
         margin-top: 100px;
     }
     #nmb2{
-        width: 48%;
+        width: 47%;
         
     }
     #nmb3{
         width: 48%;
         background-color: var(--Pearl-Bush);
-        height: 575px;
-        margin-left: 41px;
+        height: 560px;
+        margin-left: 50px;
     }
     /*Text chars*/
     .greytitle{

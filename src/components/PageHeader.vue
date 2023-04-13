@@ -41,7 +41,7 @@ export default{
 <style scoped>
 #header{
     height: 800px;
-    width: 100vw;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(/img/hero-header-bakery.jpg);

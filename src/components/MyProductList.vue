@@ -41,7 +41,7 @@ export default{
 <style scoped>
 .container{
     margin-top: 150px;
-    width: 100vw;
+    width: 100%;
     justify-content: center;
 }
 .innerbox{

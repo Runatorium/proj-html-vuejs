@@ -40,7 +40,7 @@ export default{
 <style scoped>
 
 .containerbox{
-    width: 100vw;
+    width: 100%;
     justify-content: center;
 }
 .innerbox{

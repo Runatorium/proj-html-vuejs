@@ -4,6 +4,7 @@ import MyProductSection from './components/MyProductSection.vue';
 import MyOccasionBox from './components/MyOccasionBox.vue';
 import MyProductList from './components/MyProductList.vue';
 import MyProcess from './components/MyProcess.vue';
+import MyLocation from './components/MyLocation.vue';
 import { store } from './store.js'
 
 
@@ -14,6 +15,7 @@ export default{
     MyOccasionBox,
     MyProductList,
     MyProcess,
+    MyLocation,
   },
 
   data () {
