@@ -112,19 +112,19 @@ export const store = reactive(
         locations: [
             {
                 city: 'New York',
-                imgurl: 'asd',
+                locnumber: 'nmb1',
+                imgurl: '/img/new-york-bk-1200x794.jpg',
                 Pnumber: '1.800.458.556',
-                openinghour: '9:00 AM',
-                closinghour: '6:00 PM',
+                hour: '9:00 AM-6:00 PM',
                 mapslocation: '#'
             },
 
             {
                 city: 'London',
-                imgurl: 'asd',
+                locnumber: 'nmb2',
+                imgurl: '/img/london-bk-1200x794.jpg',
                 Pnumber: '1.800.458.556',
-                openinghour: '9:00 AM',
-                closinghour: '6:00 PM',
+                hour: '9:00 AM-6:00 PM',
                 mapslocation: '#'
             },
         ],

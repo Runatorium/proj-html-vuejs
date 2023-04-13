@@ -36,6 +36,7 @@ export default{
   <MyOccasionBox></MyOccasionBox>
   <MyProductList></MyProductList>
   <MyProcess></MyProcess>
+  <MyLocation></MyLocation>
 </template>
 
 <style scoped>
