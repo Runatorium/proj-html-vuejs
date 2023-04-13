@@ -50,7 +50,7 @@ export default{
     margin-top: 20px;
     padding: 10px;
     width: 98%;
-    height: 800px;
+    height: 700px;
 }
 .title{
     text-align: center;
