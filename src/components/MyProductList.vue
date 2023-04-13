@@ -33,6 +33,9 @@ export default{
                 <div v-for="product in store.allProducts">
                     <img :src="product.imgurl" alt="">
                 </div>
+                <div id="arrowsright">
+                    <i id="center" class="fa-solid fa-chevron-right"></i>
+                </div>
             </div>
         </div>
     </div>
@@ -82,5 +85,28 @@ img{
     width: 255px;
     padding: 5px;
     margin-left: 50px;
+}
+#arrows{
+    position: absolute;
+    margin-left: 2.9%;
+    margin-top: 140px;
+    height: 45px;
+    width: 15px;
+    background-color: var(--Perfume);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#arrowsright{
+    position: absolute;
+    margin-left: 65.1%;
+    margin-top: 140px;
+    height: 45px;
+    width: 15px;
+    background-color: var(--Perfume);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 </style>
