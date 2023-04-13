@@ -5,6 +5,7 @@ import MyOccasionBox from './components/MyOccasionBox.vue';
 import MyProductList from './components/MyProductList.vue';
 import MyProcess from './components/MyProcess.vue';
 import MyLocation from './components/MyLocation.vue';
+import MySocialimgs from './components/MySocialimgs.vue';
 import { store } from './store.js'
 
 
@@ -16,6 +17,7 @@ export default{
     MyProductList,
     MyProcess,
     MyLocation,
+    MySocialimgs,
   },
 
   data () {
@@ -37,6 +39,7 @@ export default{
   <MyProductList></MyProductList>
   <MyProcess></MyProcess>
   <MyLocation></MyLocation>
+  <MySocialimgs></MySocialimgs>
 </template>
 
 <style scoped>

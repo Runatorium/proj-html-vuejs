@@ -128,6 +128,37 @@ export const store = reactive(
                 mapslocation: '#'
             },
         ],
+        socialmediaimgs:[
+            {
+                url: '/img/social-1.jpg',
+                mbr: 'nmb1'
+            },
+            {
+                url: 'None',
+                mbr: 'nmb2',
+                subtitle: 'Made for Sharing',
+                title: 'Lets stay in touch',
+            },
+            {
+                url: '/img/social-2.jpg',
+                mbr: 'nmb3'
+            },
+            {
+                url: '/img/social-3.jpg',
+                mbr: 'nmb4'
+            },
+            {
+                url: '/img/social-4.jpg',
+                mbr: 'nmb5'
+            },
+            {
+                url: '/img/social-5.jpg',
+                mbr: 'nmb6'
+            },
+            {
+                url: '/img/social-6.jpg',
+            },
+        ]
 
 
     }
