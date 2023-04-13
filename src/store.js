@@ -34,7 +34,7 @@ export const store = reactive(
             {
                 name: 'Choco chip Cookies',
                 type: ['Cookies', 'Pastries'],
-                imgurl: '/public/img/choco-chip-cookies-400x510.jpg',
+                imgurl: '/img/choco-chip-cookies-400x510.jpg',
                 minPrice: 19.00,
                 maxPrice: 39.00,
             },
@@ -48,7 +48,7 @@ export const store = reactive(
             {
                 name: 'Strawberry Donut',
                 type: ['Donut', 'Pastries'],
-                imgurl: '/public/img/strawberry-donut-400x510.jpg',
+                imgurl: '/img/strawberry-donut-400x510.jpg',
                 minPrice: 24.00,
                 maxPrice: 42.00,
             },
@@ -80,22 +80,31 @@ export const store = reactive(
             {
                 name: 'Tell us what you have in mind',
                 number: '01', 
+                id: 'nmb1',
                 subtitle: 'Manual Ingredient Selection',
-                imgurl: 'asd',
-                text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.Provident ea nihil repellendus consequatur libero, distinctio aut corporis laborum, nisi numquam ratione est illo quis officia.'
+                imgurl: '/img/bakery-process-1.jpg',
+                text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.Provident ea nihil repellendus consequatur libero, distinctio aut corporis laborum, nisi numquam ratione est illo quis officia. nisi numquam ratione est illo quis officia nisi numquam ratione est illo quis officia'
             },
             {
                 name: 'We Start Baking',
                 number: '02', 
+                id: 'nmb2',
                 subtitle: 'Sweet & Delicious',
-                imgurl: 'asd',
+                imgurl: '/img/bakery-process-2.jpg',
                 text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident ea nihil repellendus consequatur libero, distinctio aut corporis laborum, nisi numquam ratione est illo quis officia.'
             },
             {
+                name: 'Finally found an alternative to the mass produced products. Something that incorporates real organic ingredients, nutrient dense wellness while promoting sustainability and activity.', 
+                id: 'nmb3',
+                subtitle: 'Dont Just take our word for it',
+                text: 'Rachel Cooper, Founder'
+            },
+            {
                 name: 'Delivered to your home',
-                number: '03', 
+                number: '03',
+                id: 'nmb4',
                 subtitle: 'Baked to order & gift wrapped',
-                imgurl: 'asd',
+                imgurl: '/img/bakery-process-3.jpg',
                 text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident ea nihil repellendus consequatur libero, distinctio aut corporis laborum, nisi numquam ratione est illo quis officia.'
             },
         ],

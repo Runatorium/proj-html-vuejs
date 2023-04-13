@@ -3,6 +3,7 @@ import PageHeader from './components/PageHeader.vue';
 import MyProductSection from './components/MyProductSection.vue';
 import MyOccasionBox from './components/MyOccasionBox.vue';
 import MyProductList from './components/MyProductList.vue';
+import MyProcess from './components/MyProcess.vue';
 import { store } from './store.js'
 
 
@@ -12,6 +13,7 @@ export default{
     MyProductSection,
     MyOccasionBox,
     MyProductList,
+    MyProcess,
   },
 
   data () {
@@ -31,6 +33,7 @@ export default{
   <MyProductSection></MyProductSection>
   <MyOccasionBox></MyOccasionBox>
   <MyProductList></MyProductList>
+  <MyProcess></MyProcess>
 </template>
 
 <style scoped>
