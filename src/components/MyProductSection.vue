@@ -118,5 +118,13 @@ export default{
     padding: 10px 20px;
     color: var(--white);
 }
+#productsbtn:hover{
+    background-color: var(--white);
+}
+#productsbtn:hover p{
+    color: var(--Daisy-Bush);
+    border: solid 1px;
+    border-radius: 10px;
+}
 /*----*/
 </style>

@@ -16,48 +16,43 @@ export const store = reactive(
         products:[
             {
                 name: 'Choco chip Cookies',
-                type: ['Cookies', 'Pastries'],
+                type: 'Cookies/Pastries',
                 imgurl: '/img/choco-chip-cookies-500x638.jpg',
-                minPrice: 19.00,
-                maxPrice: 39.00,
+                price: '19.00-39.00',
+            
             },
             {
                 name: 'Strawberry Jam Cookies',
-                type: ['Cookies', 'Pastries'],
+                type: 'Cookies/Pastries',
                 imgurl: '/img/strawberry-jam-cookies-500x638.jpg',
-                minPrice: 24.00,
-                maxPrice: 62.00,
+                price: '24.00-62.00',
             },
         ],
 
         allProducts: [
             {
                 name: 'Choco chip Cookies',
-                type: ['Cookies', 'Pastries'],
+                type: 'Cookies/Pastries',
                 imgurl: '/img/choco-chip-cookies-400x510.jpg',
-                minPrice: 19.00,
-                maxPrice: 39.00,
+                price: '19.00-39.00',
             },
             {
                 name: 'Strawberry Jam Cookies',
-                type: ['Cookies', 'Pastries'],
+                type: 'Cookies/Pastries',
                 imgurl: '/img/strawberry-jam-cookies-400x510.jpg',
-                minPrice: 24.00,
-                maxPrice: 62.00,
+                price: '24.00-62.00',
             },
             {
                 name: 'Strawberry Donut',
-                type: ['Donut', 'Pastries'],
+                type: 'Donut/Pastries',
                 imgurl: '/img/strawberry-donut-400x510.jpg',
-                minPrice: 24.00,
-                maxPrice: 42.00,
+                price: '24.00-42.00', 
             },
             {
                 name: 'Perfect Macarons',
-                type: ['Cookies','Pastries'],
+                type: 'Cookies/Pastries',
                 imgurl: '/img/perfect-macarons-400x510.jpg',
-                minPrice: 18.00,
-                maxPrice: 52.00,
+                price: '18.00-52.00', 
             }
         ],
         

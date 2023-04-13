@@ -120,6 +120,14 @@ export default{
     color: var(--white);
     font-weight: 500;
     }
+    #submitbtn:hover{
+    background-color: var(--white);
+    }
+    #submitbtn:hover p{
+        color: var(--Daisy-Bush);
+        border: solid 1px;
+        border-radius: 10px;
+    }
     .emailbox{
         justify-content: flex-end;
         margin-top: 40px;

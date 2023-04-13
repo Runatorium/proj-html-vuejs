@@ -67,7 +67,7 @@ export default{
     position: absolute;
     margin-top: 15px;
     border-style: none;
-    border-radius: 7px;
+    border-radius: 10px;
     background-color: var(--Daisy-Bush);
     margin-left: 37.5%;
     margin-top: 220px;
@@ -77,5 +77,13 @@ export default{
     font-size: 12px;
     color: var(--white);
     font-weight: 500;
+    }
+    #followbtn:hover{
+    background-color: var(--white);
+    }
+    #followbtn:hover p{
+        color: var(--Daisy-Bush);
+        border: solid 1px;
+        border-radius: 10px;
     }
 </style>

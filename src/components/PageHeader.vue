@@ -83,9 +83,17 @@ export default{
     font-weight: 500;
 }
 #headerbtn{
- margin-top: 15px;
- border-style: none;
- border-radius: 7px;
+    margin-top: 15px;
+    border-style: none;
+    border-radius: 10px;
+}
+#headerbtn:hover{
+    background-color: var(--Daisy-Bush);
+}
+#headerbtn:hover p{
+    color: var(--white);
+    border: solid 1px var(--Daisy-Bush);
+    border-radius: 10px;
 }
 /*Header Info*/ 
 /*-------------------------------------*/

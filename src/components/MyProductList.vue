@@ -30,8 +30,13 @@ export default{
                 <div id="arrows">
                     <i id="center" class="fa-solid fa-chevron-left"></i>
                 </div>
-                <div v-for="product in store.allProducts">
+                <div class="singleproduct" v-for="product in store.allProducts">
                     <img :src="product.imgurl" alt="">
+                    <div class="productinfo">
+                        <h4 class="producttitle" v-text="product.name"></h4>
+                        <p class="producttype" v-text="product.type"></p>
+                        <h5 class="productprice" v-text="product.price"></h5>
+                    </div>
                 </div>
                 <div id="arrowsright">
                     <i id="center" class="fa-solid fa-chevron-right"></i>
@@ -42,6 +47,30 @@ export default{
 </template>
 
 <style scoped>
+.singleproduct:hover .productinfo{
+    display: block;
+}
+
+.productinfo{
+    text-align: center;
+    display: none;
+    width: 100%;
+    padding: 5px;
+    position: absolute;
+    color: black;
+    margin-left: -41%;
+}
+/*
+.productprice{
+    margin-left: 40px;
+    margin-top: 10px ;
+}
+.producttype{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+*/
 .container{
     margin-top: 150px;
     width: 100%;
@@ -60,7 +89,15 @@ export default{
     margin-left: 22%;
     border-style: none;
     border-radius: 7px;
-    background-color: var(--Daisy-Bush);;
+    background-color: var(--Daisy-Bush);
+}
+#productsbtn:hover{
+    background-color: var(--white);
+}
+#productsbtn:hover p{
+    color: var(--Daisy-Bush);
+    border: solid 1px;
+    border-radius: 10px;
 }
 #productsbtn p{
     padding: 10px 20px;

@@ -43,7 +43,7 @@ export default{
     #headerbtn{
     margin-top: 15px;
     border-style: none;
-    border-radius: 7px;
+    border-radius: 15px;
     }
     #headerbtn p{
     padding: 15px 40px;
@@ -51,6 +51,14 @@ export default{
     font-weight: 900;
     color: var(--Daisy-Bush);
     font-weight: 500;
+    }
+    #headerbtn:hover{
+    background-color: var(--Daisy-Bush);
+    }
+    #headerbtn:hover p{
+        color: var(--white);
+        border: solid 1px var(--Daisy-Bush);
+        border-radius: 15px;
     }
     .title{
     width: 55%;
