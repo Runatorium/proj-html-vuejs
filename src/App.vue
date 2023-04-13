@@ -6,6 +6,7 @@ import MyProductList from './components/MyProductList.vue';
 import MyProcess from './components/MyProcess.vue';
 import MyLocation from './components/MyLocation.vue';
 import MySocialimgs from './components/MySocialimgs.vue';
+import MyBottomBanner from './components/MyBottomBanner.vue';
 import { store } from './store.js'
 
 
@@ -18,6 +19,7 @@ export default{
     MyProcess,
     MyLocation,
     MySocialimgs,
+    MyBottomBanner,
   },
 
   data () {
@@ -40,6 +42,7 @@ export default{
   <MyProcess></MyProcess>
   <MyLocation></MyLocation>
   <MySocialimgs></MySocialimgs>
+  <MyBottomBanner></MyBottomBanner>
 </template>
 
 <style scoped>

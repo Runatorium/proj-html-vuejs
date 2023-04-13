@@ -18,7 +18,6 @@ export default{
     <div class="SocialMediaBox d-flex">
         <div class="socialmediainnerbox d-flex" >
             <button id="followbtn">
-                
                 <p> <i class="fa-brands fa-instagram"></i> Follow Us</p>
             </button>
             <div class="imgs" :id="imgs.mbr" :style="{backgroundImage: `url(${imgs.url})`}" v-for="imgs in store.socialmediaimgs">
@@ -37,7 +36,6 @@ export default{
 .socialmediainnerbox{
     margin-top: 100px;
     width: 80%;
-    height: 600px;
     justify-content: space-between;
     flex-wrap: wrap;
 }

@@ -76,6 +76,8 @@ export default{
     text-align: center;
     color: var(--Daisy-Bush);
     font-size: 36px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     }
     .txt{
         width: 100%;
@@ -112,7 +114,10 @@ export default{
         color: var(--Manatee);
         text-align: center; 
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
+    }
+    .hours p{
+        padding: 5px;
     }
     .title{
     text-align: center;
