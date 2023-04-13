@@ -19,7 +19,7 @@ export default{
     <h2 class="title">Baking Special Moments</h2>
     <div class="container">
         <div class="innerbox">
-            <div v-for="special in store.events" >
+            <div class="eventimgsbox" v-for="special in store.events" >
                 <img class="eventimgs" :src="special.imgurl" alt="">
             </div>
       </div>  

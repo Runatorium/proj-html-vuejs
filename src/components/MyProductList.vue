@@ -32,23 +32,42 @@ export default{
                 </div>
                 <div class="singleproduct" v-for="product in store.allProducts">
                     <img :src="product.imgurl" alt="">
+                    <div class="ondisplay">
+                        <h4  v-text="product.name"></h4>
+                        <h5  v-text="product.price"></h5>
+                    </div>
                     <div class="productinfo">
                         <h4 class="producttitle" v-text="product.name"></h4>
                         <p class="producttype" v-text="product.type"></p>
                         <h5 class="productprice" v-text="product.price"></h5>
                     </div>
                 </div>
+                    
+                </div>
                 <div id="arrowsright">
                     <i id="center" class="fa-solid fa-chevron-right"></i>
                 </div>
             </div>
         </div>
-    </div>
 </template>
 
 <style scoped>
+
+.ondisplay{
+    text-align: center;
+    color: black;
+    margin-left: 50px;
+    color: var(--Daisy-Bush);
+    font-size: 20px;
+}
+.ondisplay h4{
+    margin-bottom: 5px
+}
 .singleproduct:hover .productinfo{
     display: block;
+}
+.singleproduct:hover .ondisplay{
+    display: none;
 }
 
 .productinfo{
@@ -60,17 +79,6 @@ export default{
     color: black;
     margin-left: -41%;
 }
-/*
-.productprice{
-    margin-left: 40px;
-    margin-top: 10px ;
-}
-.producttype{
-    margin-left: 30px;
-    margin-top: 10px;
-    font-size: 14px;
-}
-*/
 .container{
     margin-top: 150px;
     width: 100%;
@@ -137,7 +145,7 @@ img{
 
 #arrowsright{
     position: absolute;
-    margin-left: 65.1%;
+    margin-left: 78.6%;
     margin-top: 140px;
     height: 45px;
     width: 15px;
