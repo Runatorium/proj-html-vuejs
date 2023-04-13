@@ -29,6 +29,9 @@ export default{
                 <div id="arrows">
                     <i id="center" class="fa-solid fa-chevron-left"></i>
                 </div>
+                <div id="arrowsright">
+                    <i id="center" class="fa-solid fa-chevron-right"></i>
+                </div>
                 <div v-for="product in store.products">
                     <img :src="product.imgurl" alt="">
                 </div>
@@ -69,6 +72,20 @@ export default{
   margin: 0;
 }
 #arrows{
+    position: absolute;
+    margin-right: 51.6%;
+    margin-top: 475px;
+    height: 45px;
+    width: 15px;
+    background-color: var(--Perfume);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#arrowsright{
+    position: absolute;
+    margin-left: 51.7%;
+    margin-top: 475px;
     height: 45px;
     width: 15px;
     background-color: var(--Perfume);
