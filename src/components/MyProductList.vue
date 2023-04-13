@@ -30,7 +30,7 @@ export default{
                 <div id="arrows">
                     <i id="center" class="fa-solid fa-chevron-left"></i>
                 </div>
-                <div class="singleproduct" v-for="product in store.allProducts">
+                <div class="singleproduct"  v-for="product in store.allProducts">
                     <img :src="product.imgurl" alt="">
                     <div class="ondisplay">
                         <h4  v-text="product.name"></h4>
@@ -69,6 +69,9 @@ export default{
 .singleproduct:hover .ondisplay{
     display: none;
 }
+.singleproduct:hover  img {
+  filter: grayscale(100%);
+}
 
 .productinfo{
     text-align: center;
@@ -76,8 +79,9 @@ export default{
     width: 100%;
     padding: 5px;
     position: absolute;
-    color: black;
+    color: var(--white);
     margin-left: -41%;
+    bottom: -210%;
 }
 .container{
     margin-top: 150px;
